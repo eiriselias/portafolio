@@ -1,5 +1,32 @@
 .home{
     width:100vw;
     height: 80vh;
-    background-color: aqua;
+    background-color: black;
+}
+
+.video{
+    width: 100vw;
+    height: 80vh;
+    object-fit: fill;
+    opacity: .2;
+    position: absolute;
+}
+
+.col img{
+    width: 150 px;
+    height: 150px;
+    background-color:white;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+h1, h2{
+    color: white;
+}
+
+hr{
+    background-image: linear-gradient(to right,transparent,var(--primary),transparent);
+    border: 0;
+    height: 0.1rem;
+    max-width: 100%;
 }
