@@ -1,14 +1,12 @@
 .home{
     width:100vw;
     height: 80vh;
-    background-color: black;
 }
 
 .video{
     width: 100vw;
     height: 80vh;
     object-fit: fill;
-    opacity: .2;
     position: absolute;
 }
 
@@ -20,13 +18,10 @@
     margin-top: 100px;
 }
 
-h1, h2{
-    color: white;
+.fondo .container{
+    position: absolute;
 }
 
-hr{
-    background-image: linear-gradient(to right,transparent,var(--primary),transparent);
-    border: 0;
-    height: 0.1rem;
-    max-width: 100%;
+h1, h2{
+    color: white;
 }

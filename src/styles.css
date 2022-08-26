@@ -19,3 +19,17 @@ html , body{
     padding: 5rem;
     text-transform: uppercase;
 }
+
+hr{
+    border: 0;
+    height: .2rem;
+    width: 100%;
+}
+
+.gradientUno{
+    background-image: linear-gradient(90deg,transparent,#00bdd6,transparent);
+}
+
+.gradientDos{
+    background-image: linear-gradient(20deg,transparent,#ffffff,transparent);
+}
