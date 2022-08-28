@@ -2,6 +2,10 @@ img:hover{
     opacity: .5;
 }
 
+.col{
+    position: relative;
+}
+
 video{
     margin-left: 10rem;
 }
@@ -10,3 +14,27 @@ p span{
     color:rgb(39, 39, 248);
 }
 
+.tip{
+    position: absolute;
+    background-color:#00bdd66c;
+    color:rgb(63, 61, 61);
+    padding: 10px 20px;
+    border-radius: 10px;
+    left: 20%;
+    top:-30%;
+    opacity:0;
+    transition: opacity 150ms;
+}
+
+.col:hover .tip{
+    opacity: 1;
+}
+
+.tip::before{
+    position: absolute;
+    content: '';
+    border: solid 10px transparent;
+    border-top-color: #00bdd66c;
+    left: 40%;
+    top:100%;
+}
