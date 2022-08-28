@@ -1,3 +1,41 @@
+input, textarea{
+    padding: 5px;
+    border: none;
+    background-color: #00bdd66c;
+    border-radius: 4px;
+    color:rgb(63, 61, 61);
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    resize: none;
+}
+
+input{
+    width: 43rem;
+}
+
+form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-left: 15rem;
+}
+
+button{
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: orange;
+    border: 2px solid;
+    margin-left: 17rem;
+}
+
+button:hover{
+    background-color: black;
+    border:2px solid orange;
+    color:orange;
+}
+
 .footer{
     position:fixed;
     bottom: 0px;
@@ -9,4 +47,34 @@
 }
 .footer:hover{
     background-color:  rgba(0, 0, 0, 0.295);
+}
+
+.title{
+    padding: 80px 80px 20px 80px;
+}
+
+.redes{
+    background-color: rgb(63, 61, 61);
+    width: 100vw;
+    height:9rem;
+    margin-top: 1rem;
+}
+
+#linkedin{
+    background-color: rgb(227, 224, 255);
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+#linkedin:hover{
+    background-color: blue;
+}
+
+#gitHub{
+    background-color: rgb(227, 224, 255);
+    border-radius: 50%;
+}
+
+#gitHub:hover{
+    background-color:black;
 }
