@@ -1,0 +1,12 @@
+.footer{
+    position:fixed;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.034);
+    color:white;
+    left: 18%;
+    padding: 15px 200px 0 200px;
+    border-radius:10px 10px 0 0;
+}
+.footer:hover{
+    background-color:  rgba(0, 0, 0, 0.295);
+}
